@@ -8,11 +8,15 @@ These games are great beginner projects that demonstrate basic JavaScript logic,
 
 ---
 
-## 🚀 Live Demo
 
-🌐 View the games online (replace the link with your GitHub Pages or hosting link):
 
 **👉 [Play Now](/https://github.com/23CSBS029/StartGame)**
+## 🚀 Live Demo
+
+🌐 Check out the live version of the games here:
+
+👉 [Start Playing on Vercel](https://start-game.vercel.app/)
+
 
 ---
 

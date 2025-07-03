@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #c31432, #240b36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  max-width: 900px;
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  position: relative;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Player Sections with Separate Backgrounds */
+.player-0-section {
+  background: linear-gradient(to bottom, #fab0ea, #eaa7d9); /* Player 1 color */
+}
+
+.player-1-section {
+  background: linear-gradient(to bottom, #cd6f9c, #ffd6e8); /* Player 2 color */
+}
+
+.player-content {
+  padding: 3rem;
+  text-align: center;
+  position: relative;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.score {
+  font-size: 4rem;
+  color: #ee4c7c;
+  margin: 1rem 0;
+}
+
+.current-box {
+  background-color: #c43c63;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 2rem auto 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  top:120px;
+}
+
+.current-label {
+  font-size: 0.9rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.current-score {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.dice {
+  display: none; 
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+  width: 80px;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #fff;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn--new {
+  top: 20px;
+  color: #333;
+}
+
+.btn--roll {
+  top: 70%;
+  margin-bottom: 10px;
+}
+
+.btn--hold {
+  top: 80%;
+  margin-top: 10px;
+}

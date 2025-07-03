@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.between {
+    
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.number {
+  font-size: 5rem;
+  width: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+input.guess {
+  width: 100px;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.message {
+  font-size: 1.5rem;
+}
+
+.label-score,
+.label-highscore {
+  font-size: 1.2rem;
+}
